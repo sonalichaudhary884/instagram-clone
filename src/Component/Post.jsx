@@ -12,7 +12,7 @@ const Post = () => {
           <img
             className="postinfoImg"
             src="https://www.mrdustbin.com/wp-content/uploads/2020/08/Hrithik-Roshan.jpg"
-            alt="image"
+            alt="post"
           />
           <div className="postInfousername">Hrithick Roshan</div>
           <div className="timingInfo">. 36 min</div>
@@ -21,7 +21,7 @@ const Post = () => {
           <img
             className="postImage"
             src="https://www.mrdustbin.com/wp-content/uploads/2020/08/Hrithik-Roshan.jpg"
-            alt="image"
+            alt="post"
           />
         </div>
         <div className="iconsBlock">
@@ -39,12 +39,12 @@ const Post = () => {
             <img
               className="likeImg"
               src="https://www.mrdustbin.com/wp-content/uploads/2020/08/Hrithik-Roshan.jpg"
-              alt="image"
+              alt="post"
             />
             <img
               className="likeImg2"
               src="https://www.mrdustbin.com/wp-content/uploads/2020/08/Hrithik-Roshan.jpg"
-              alt="image"
+              alt="post"
             />
           </div>
           <div className="noOfLikes">112,456 likes</div>
