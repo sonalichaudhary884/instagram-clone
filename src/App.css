@@ -7,15 +7,16 @@
 }
 
 .leftSideHome {
-  flex: 0.17;
-  padding: 30px 20px;
-  border: 1px solid;
+  flex: 0.155;
+  padding: 25px 10px;
 }
 
 .middleSide {
   flex: 0.5;
+  flex-direction: column;
+  border-left: 1px solid #848181;
 }
 
 .rightSide {
-  flex: 0.33;
+  flex: 0.345;
 }

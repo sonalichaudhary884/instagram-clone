@@ -1,6 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import LeftSide from "./Component/leftSide";
+import RightSide from "./Component/RightSide.js";
+import Stories from "./Component/Stories.jsx";
 
 function App() {
   return (
@@ -8,8 +9,12 @@ function App() {
       <div className="leftSideHome">
         <LeftSide />
       </div>
-      <div className="middleSide">Middle Side</div>
-      <div className="rightSide">Right Side</div>
+      <div className="middleSide">
+        <Stories />
+      </div>
+      <div className="rightSide">
+        <RightSide />
+      </div>
     </div>
   );
 }
