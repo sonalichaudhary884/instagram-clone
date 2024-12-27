@@ -6,7 +6,7 @@ const StoryCard = ({ name, imageUrl }) => {
   return (
     <div className="storyParticular">
       <div className="imageDiv">
-        <img className="statusImg" src={imageUrl} alt="image" />
+        <img className="statusImg" src={imageUrl} alt="status" />
       </div>
       <div className="profileName">{name}</div>
     </div>

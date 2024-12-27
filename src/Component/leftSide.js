@@ -48,7 +48,7 @@ const LeftSide = () => {
           <div className="navName">Create</div>
         </div>
         <div className="navLink">
-          <img className="profileImg" src={profileImg} alt="profile Image" />
+          <img className="profileImg" src={profileImg} alt="profile" />
           <div className="navName">Profile</div>
         </div>
         <div className="belowPart">
