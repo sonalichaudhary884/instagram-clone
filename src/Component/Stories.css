@@ -52,3 +52,19 @@
   display: flex;
   gap: 20px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 920px) {
+  .middleHomeSide {
+    width: 100%;
+    padding: 0px 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .storyBlock {
+    width: 100vw;
+  }
+}
